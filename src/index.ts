@@ -20,6 +20,7 @@ const visitorId = '12345';
 // Maximum number of Products to return.
 const pageSize = 10;
 
+// i have no idea what this is !!!!!! 
 const IResponseParams = {
   ISearchResult: 0,
   ISearchRequest: 1,
@@ -27,6 +28,7 @@ const IResponseParams = {
 };
 
 const retailClient = new SearchServiceClient();
+// this looks important !
 // const projectId = await retailClient.getProjectId();
 
 const getHoodieSearch = async () => {
